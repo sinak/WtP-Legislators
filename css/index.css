@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+#petition-list {
+  margin-top: 30px; }
+  #petition-list li {
+    list-style-type: none;
+    margin-bottom: 15px; }
+  #petition-list h3 {
+    font-weight: normal;
+    display: inline;
+    font-size: 16px; }
+  #petition-list input {
+    border: none;
+    width: 300px;
+    font-size: 16px; }

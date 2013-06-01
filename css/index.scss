@@ -1,0 +1,28 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$sans: "Open Sans", sans-serif;
+
+body {
+	font-family: $sans;
+}
+
+#petition-list {
+	margin-top:30px;
+	li {
+		list-style-type:none;
+		margin-bottom:15px;
+	}
+
+	h3 {
+		font-weight:normal;
+		display:inline;
+		font-size:16px;
+	}
+	input {
+		border: none;
+		width:300px;
+		font-size:16px;
+	}
+}
